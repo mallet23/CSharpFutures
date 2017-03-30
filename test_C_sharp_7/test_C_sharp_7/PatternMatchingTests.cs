@@ -20,5 +20,34 @@ namespace test_C_sharp_7
                 Console.WriteLine($"NaN: {testValue} ( {testValue.GetType()} )");
             }
         }
+
+
+
+        public static void SwitchStatementsPatternTest(object testValue)
+        {
+            switch (testValue)
+            {
+                case int positiveNumber when positiveNumber < 0:
+                    Console.WriteLine($"Negative number! { positiveNumber }");
+                    return;
+
+                case int negativeNumber:
+                    Console.WriteLine($"Not negative number! { negativeNumber }");
+                    return;
+
+                case string stringValue:
+                    Console.WriteLine($"It is string! { stringValue }");
+                    return;
+
+                default:
+                    Console.WriteLine("<unknown type>");
+                    return;
+
+                case null:
+                    Console.WriteLine("null");
+                    return;
+
+            }
+        }
     }
 }
