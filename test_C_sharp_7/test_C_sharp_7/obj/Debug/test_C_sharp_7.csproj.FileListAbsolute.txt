@@ -4,3 +4,4 @@ C:\Users\Артур\Documents\CSharpFutures\test_C_sharp_7\test_C_sharp_7\bin\De
 C:\Users\Артур\Documents\CSharpFutures\test_C_sharp_7\test_C_sharp_7\bin\Debug\test_C_sharp_7.pdb
 C:\Users\Артур\Documents\CSharpFutures\test_C_sharp_7\test_C_sharp_7\obj\Debug\test_C_sharp_7.exe
 C:\Users\Артур\Documents\CSharpFutures\test_C_sharp_7\test_C_sharp_7\obj\Debug\test_C_sharp_7.pdb
+C:\Users\Артур\Documents\CSharpFutures\test_C_sharp_7\test_C_sharp_7\bin\Debug\System.ValueTuple.dll
