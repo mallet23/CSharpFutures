@@ -10,9 +10,10 @@ namespace test_C_sharp_7
     {
         public static void IsExpressionPatternTest(object testValue)
         {
-            if(testValue is int number)
+            if (testValue is int number ||
+                (testValue is string stringValue && int.TryParse(stringValue, out number)))
             {
-                Console.WriteLine(number);
+                Console.WriteLine($"Number: {number}");
             }
             else
             {

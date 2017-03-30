@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //PatternMatchingTests.IsExpressionPatternTest("NaN");
             //PatternMatchingTests.IsExpressionPatternTest("4");
             //PatternMatchingTests.IsExpressionPatternTest(4);
         }
