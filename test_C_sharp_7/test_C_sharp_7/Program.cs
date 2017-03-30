@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            //PatternMatchingTests.IsExpressionPatternTest("4");
+            //PatternMatchingTests.IsExpressionPatternTest(4);
         }
     }
 }
