@@ -19,7 +19,9 @@
             //DeconstructionTests.DeconstructionDeclarationIndividualVariablesTest();
             //DeconstructionTests.DeconstructionCommonDeclarationTest();
             //DeconstructionTests.DeconstructionDeclarationWithExistingVariablesTest();
-            DeconstructionTests.ClassDecontctructionTest();
+            //DeconstructionTests.ClassDecontctructionTest();
+
+            LocalFunctionTests.MultIndex(4);
         }
     }
 }
