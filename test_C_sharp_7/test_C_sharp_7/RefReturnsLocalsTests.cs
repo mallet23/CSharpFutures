@@ -20,6 +20,7 @@ namespace test_C_sharp_7
             {
                 if(value.CompareTo(source[i]) == 0)
                 {
+                    // ref return
                     return ref source[i];
                 }
             }
@@ -33,6 +34,7 @@ namespace test_C_sharp_7
 
             Console.WriteLine($"Old array: {string.Join(", ", array)}");
 
+            // ref locals
             ref int val = ref array.Find(2_000);
 
             val = 3_111;
