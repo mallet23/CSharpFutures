@@ -61,9 +61,9 @@ namespace test_C_sharp_7
         {
             string firstName;
             string lastName;
-            string middleName;
+            string middleName = "None";
 
-            (firstName, lastName, middleName) = TupleTests.Name;
+            (firstName, lastName, _) = TupleTests.Name;
 
             ShowName(firstName, lastName, middleName);
         }
