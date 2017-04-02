@@ -4,7 +4,7 @@ namespace test_C_sharp_7
 {
     static class TupleTests
     {
-        private static (string firstName, string lastName, string middleName) Name
+        public static (string firstName, string lastName, string middleName) Name
         {
             get
             {

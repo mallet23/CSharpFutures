@@ -14,7 +14,11 @@
             //PatternMatchingTests.SwitchStatementsPatternTest(0.3f);
             //PatternMatchingTests.SwitchStatementsPatternTest(null);
 
-            TupleTests.ShowName();
+            //TupleTests.ShowName();
+
+            DeconstructionTests.DeconstructionDeclarationIndividualVariablesTest();
+            DeconstructionTests.DeconstructionCommonDeclarationTest();
+            DeconstructionTests.DeconstructionDeclarationWithExistingVariablesTest();
         }
     }
 }
