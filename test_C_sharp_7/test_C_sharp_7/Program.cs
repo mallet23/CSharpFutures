@@ -21,7 +21,9 @@
             //DeconstructionTests.DeconstructionDeclarationWithExistingVariablesTest();
             //DeconstructionTests.ClassDecontctructionTest();
 
-            LocalFunctionTests.MultIndex(4);
+            //LocalFunctionTests.MultIndex(4);
+
+            RefReturnsLocalsTests.ChangeArrayValueTest();
         }
     }
 }
